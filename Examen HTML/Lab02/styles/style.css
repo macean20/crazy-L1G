@@ -1,0 +1,105 @@
+.monlogo{
+    max-width: 100px;
+    max-height: 100px;
+} 
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header img{
+    width: 200px;
+}
+nav.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    top: 200px;
+    position: absolute;
+    width: 100%;
+}
+nav.menu ul li{
+    margin: 0 20px;
+    min-width: 120px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.images img{
+    width: 100%;
+    
+}
+h1{
+    color: rgb(165, 42, 42);
+    size: 200;
+}
+.container{
+    background-color: rgb(223, 223, 236);
+    padding: 10%;
+    
+}
+.image-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.text-right {
+    overflow: hidden;
+}
+.realisation  {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.logo {
+    display: flex; /* Afficher les éléments en ligne */
+    align-items: center; /* Aligner les éléments verticalement */
+}
+
+.logo h1 {
+    margin-right: 80px; /* Espacement entre le texte et l'image */
+}
+
+.menu ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 40px; /* Espacement entre les boutons */
+}
+
+.menu a {
+    text-decoration: none; /* Supprimer la décoration du lien */
+    padding: 10px 20px; /* Ajouter un espace autour du texte */
+    background-color: #f8f1f1; /* Couleur de fond */
+    color: #333; /* Couleur du texte */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.menu a:hover {
+    background-color: #ccc; /* Couleur de fond au survol */
+}
+
+.class{
+    position: relative;
+left: 30px;
+}
+.end{
+    background-color: #6c6c6b;
+    margin-top: 20px;
+}
+ol li a{
+    text-decoration: none;
+    color: #100f0f;
+}
